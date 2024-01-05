@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --wp--present--font-size--normal: 16px;
+    --wp--present--font-size--huge: 42px;
+}
+
+html {
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+* {
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+
+
+head {
+    display: none;
+}
+
+body {
+    font-family: Roboto Condensed, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #fff;
+    color: #222;
+    overflow: hidden;
+    overflow-y: auto;
+    line-height: 1;
+    font-variant-ligatures: none;
+}
+
+body {
+    line-height: 1;
+}
+
+.header-global-bground {
+    background-color: #fff;
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+@media screen and (min-width: 601px) {
+    .header-global {
+        padding: 1.25rem 0.625rem 0.625rem 0.625rem;
+        max-height: none;
+    }
+}
+
+.header-global {
+    z-index: 2;
+    background: #fff;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.header-global .header-global-top {
+    border-bottom: 2px solid #3c3c3c;
+    height: 37px;
+}
+
+.header-global .site-wrapper {
+    display: flex;
+    align-items: center;
+    position: static;
+    padding: 0 0 0.625rem;
+}
+
+.site-wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.header-global .header-global-logo {
+    margin: 0;
+    flex: 4 1 200px;
+    overflow: hidden;
+}
+
+h2 h3{
+    font-weight: 600;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Condensed", "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+@media screen and (min-width: 601px) {
+    .header-global .header-global-logo-link {
+        width: 207px;
+    }
+}
+
+.header-global .header-global-logo-link {
+    display: block;
+    overflow: hidden;
+    padding-right: 0.625rem;
+}
+
+a:visted {
+    color: #3c3c3c;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-global .search-form-submit, .header-global .search-form-label, .screen-reader-text, .visually-hidden {
+    position: absolute !important;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+@media (min-width: 600px) {
+    .header-global .site-logo {
+        height: 25px;
+    }
+}
+
+.header-global .site-logo {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+.header-global .site-logo-small {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header-global .search-form {
+    flex: 0 1 auto;
+    margin: 0 0.625rem 0 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+input {
+    border: 0;
+}
+
+.header-global .search-button {
+    padding: 0.3125rem;
+    border: 1px solid #3c3c3c;
+    border-radius: 0;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 3;
+    transition: background-color .2s ease-in-out;
+    background-size: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 -64 1010.843 1024' preserveAspectRatio='xMinYMid'%3E%3Cpath fill='%23000' d='M837.922,354.961C837.922,123.925,649.997-64,418.961-64S0,123.925,0,354.961 c0,231.036,187.925,418.961,418.961,418.961S837.922,585.997,837.922,354.961z M418.961,67.97 c158.276,0,286.903,128.715,286.991,286.991c0,158.276-128.715,286.991-286.991,286.991c-158.276,0-286.991-128.803-286.991-286.991 C131.97,196.685,260.685,67.97,418.961,67.97L418.961,67.97z M944.818,959.999c17.244,0,34.4-6.686,47.421-20.059 c25.338-26.13,24.722-67.921-1.408-93.347l-274.498-266.58c-26.042-25.25-67.833-24.722-93.347,1.408 c-25.338,26.13-24.722,67.921,1.408,93.347l274.498,266.58C911.65,953.841,928.278,960,944.818,959.999L944.818,959.999z'/%3E%3C/svg%3E");
+}
+
+@media screen and (min-width: 401px) {
+    .header-global.search-form-open .search-form {
+        width: 238px;
+    }
+}
+
+.header-global.search-form-open .search-form {
+    z-index: 1;
+    flex-shrink: 0;
+}
+
+.header-global.search-form-open .search-form-input-wrapper {
+    padding-left: 0.25em;
+    padding-right: 2px;
+    border: 1px solid #3c3c3c;
+    width: calc(100% - 24px);
+}
+
+.header-global.search-form-open .search-form-input {
+    width: 100%;
+    height: 22px;
+    padding-right: 2px;
+}
+
+.header-global .site-wrapper {
+    display: flex;
+    align-items: center;
+    position: static;
+    padding: 0 0 0 0.625rem;
+}
+
+@media screen and (min-width: 601px) {
+    nav-global {
+        padding-top: 10px;
+    }
+}
+
+nav-global {
+    flex-grow: 6;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 601px) {
+    .nav-global-menu {
+        width: auto;
+        flex-shrink: 0;
+        padding-top: 0;
+    }
+}
+
+ol, ul {
+    list-style: none;
+}
+
+@media screen and (min-width: 601px) {
+    .nav-global-menu-item {
+        display: inline;
+        position: relative;
+        padding: 0;
+        margin: 0 1.875rem 0 0;
+    }
+}
+
+.nav-global-menu-item {
+    font-family: "Roboto Condensed", "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+@media screen and (min-width: 601px) {
+    .nav-global-menu-item>a {
+        padding: 0;
+    }
+}
+
+.nav-global-menu-item>a {
+    display: inline-block;
+    color: #3c3c3c;
+    font-size: 0.875rem;
+    text-decoration: none;
+}
